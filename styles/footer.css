@@ -1,0 +1,50 @@
+.footer{
+    padding: 100px 8%;
+    background-color: #003060;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 9%;
+    color: white;
+}
+
+/* .footer > div{
+    display: flex;
+    flex-direction: column;
+
+} */
+
+.footer h3{
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.footer p{
+    font-size: 15px;
+    margin-top: 18px;
+}
+.subscribe-form{
+    border-radius: 10px;
+    display: flex;
+    background-color: white ;
+    overflow: hidden;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.subscribe-form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+
+}
+.footer .subscribe-form .btn{
+    background-color: #E55B13;
+    border: none !important;
+    outline: none !important;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}

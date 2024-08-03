@@ -1,0 +1,139 @@
+.product{
+    padding: 60px 8%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: #F6EEE0;
+}
+.image{
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  
+}
+.details .title{
+    padding-top: 10px;
+    font-size: 40px;
+    color: #003060;
+    margin-bottom: 10px;
+}
+
+.details .author{
+    font-size: 24px;
+    color: #A47551;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+
+
+
+.details .rating i{
+    color: #F8C625;
+    font-size: 17px;
+}
+
+.details .description{
+    font-size: 18px;
+    color: #003060;
+    
+}
+.details .description p   {
+    line-height: 30px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.price .amount {
+    color: #EE6014;
+    font-size: 27px;
+}
+
+.price button{
+    background-color: #EE6014;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.related-products{
+    padding: 60px 8%;
+
+}
+
+.reviews{
+    padding: 60px 8%;
+
+}
+
+.related-products .heading , .reviews .heading{
+   
+    font-size: 24px;
+    color: #003060;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+}
+
+.review{
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+    align-items: flex-start;
+}
+
+.review .image{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.review img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review .details{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.review .details div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    color: #003060;
+}
+
+.review .date{
+    color: #A47551;
+    font-size: 15px;
+}
+.review .rating i{
+    font-size: 13px;
+}
+
+.review .comment{
+    color: #A47551;
+    font-size: 16px;
+}

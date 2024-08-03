@@ -1,0 +1,78 @@
+.hero {
+    background-color: #F6EEE0;
+    padding: 20px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.hero-text {
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+}
+
+.hero-text h1 {
+    font-size: 47px;
+    color: #003060;
+    font-weight: 500;
+}
+
+.hero-text p {
+    font-size: 17px;
+    color: #A47551;
+    /* margin: 30px 0; */
+}
+
+.hero-text .btn{
+    text-align: center;
+    width: 25%;
+    background-color: #E55B13;
+    color: #F6EEE0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+    text-decoration: none;
+}
+
+.social-icons{
+    display: flex;
+    gap: 30px;
+}
+.social-icons .fa-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+    background-color: #A47551;
+    font-size: 17px;
+    color: #F6EEE0;
+    cursor: pointer;
+}
+
+.hero-image{
+    /* width: 60%; */
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.hero-image img{
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+

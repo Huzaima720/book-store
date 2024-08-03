@@ -1,0 +1,72 @@
+.container{
+    padding: 40px 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.filter{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter > div {
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #F6EEE0;
+    color: #003060;
+}
+
+.filter > div h3 {
+    font-size: 16px;
+} 
+
+.filter .heading {
+    background-color: #003060 ;
+    color: white;
+}
+
+.products-container{
+    width: 78%;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.top-card{
+    flex: 1;
+    padding: 20px;
+    background-color: #F6EEE0;
+    border-radius: 15px;
+    color: #003060;
+}
+
+
+.products{
+    width: 100%;
+    margin: 40px 0;
+}
+
+.products .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;  
+    color: #003060;
+}
+
+.products .heading a {
+    text-decoration: none;
+    color: #EE6014;
+    font-size: 14px;
+}

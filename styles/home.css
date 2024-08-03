@@ -1,0 +1,115 @@
+.types{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 100px 8%;
+}
+
+.types h1{
+    font-size: 35px;
+    color: #A47551;
+   
+}
+.items {
+    display: flex;
+    gap: 60px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.item h3{
+    font-size: 20px;
+    color: #A47551;
+}
+
+.type-icon{
+    width : 130px;
+    height: 130px;
+    background-color: #003060;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+
+.deals , .best {
+    padding: 100px 8%;
+    background-color: #F6EEE0;
+    display: flex;
+    justify-content: space-between;
+    gap: 9%;
+
+}
+.deals .image{
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deals .text, .best .text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 30px;
+}
+
+.deals .text h3 , .best .text h3 , .sellers .heading h3 {
+    font-size: 43px;
+    font-weight: 500;
+    color: #003060;
+}
+
+.deals .text p , .best .text p{
+    font-size: 17px;
+    color: #A47551;
+}
+
+.deals .btn , .best .btn{
+    text-align: center;
+    width: 25%;
+    background-color: #E55B13;
+    color: #F6EEE0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+    text-decoration: none;
+}
+
+
+.best{
+   background-color: #fff;
+}
+
+.sellers{
+    background-color: #F6EEE0;
+    padding: 100px 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.sellers .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sellers .heading a{
+    text-decoration: none;
+    color: #E55B13;
+}
